@@ -1,0 +1,11 @@
+name: CI Workflow
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: indhusri.kodati@gramener.com
+        run: echo "Hello, world!"
